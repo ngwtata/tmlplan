@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large data spreadsheets (plant reports)
+*.xlsx
+*.xls
+*.xlsb
+*.xlsm
+*.csv
+*.db
+
+# Force track Master BOM, Dashboard files, and TEST directory
+!Bom details.xlsx
+!Dashboard files.xlsm
+!TEST/
+!TEST/*
+
+# Temporary & update scratch folders
+update/
+
+# Streamlit logs (but keep config.toml for theming)
+*.log
+
+# Workspace/IDE folders
+.vscode/
+.idea/
+.agents/
